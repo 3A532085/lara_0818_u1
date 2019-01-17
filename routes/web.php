@@ -21,3 +21,4 @@ Route::get('/tracy', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/mail', 'MailController@getSend');
